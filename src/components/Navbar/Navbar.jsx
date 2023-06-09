@@ -3,7 +3,7 @@ import './Navbar.css'
 import { useState } from "react";
 
 import { GiHamburgerMenu } from "react-icons/gi";
-import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { GiWeightLiftingUp } from "react-icons/gi";
 
 import { images } from "../../constants"
 
@@ -36,7 +36,7 @@ const Navbar = () => {
         </a>
         <div />
         <a href="/" className="p__opensans">
-          Book a Call
+          Book  Call
         </a>
       </div>
       <div className="app__navbar-smallscreen">
@@ -48,7 +48,7 @@ const Navbar = () => {
 
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-            <MdOutlineRestaurantMenu
+            <GiWeightLiftingUp
               fontSize={27}
               className="overlay__close"
               onClick={() => setToggleMenu(false)}
