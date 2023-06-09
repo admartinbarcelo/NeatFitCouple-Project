@@ -5,7 +5,7 @@ import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 
-// import { images } from "../../constants"
+import { images } from "../../constants"
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -13,7 +13,8 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        {/* <img src={} alt="app logo" /> */}
+        {/* <img src={images.Logo} alt="app logo" /> */}
+        <h1 className="p__opensans">NEAT FITCOULPLE</h1>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
