@@ -1,3 +1,4 @@
+import React from "react";
 import "./Header.css";
 
 import { images } from "../../constants";
@@ -8,7 +9,7 @@ const Header = () => {
     <div className="app__header app__wrapper section__padding" id="home">
       <div className="app__wrapper_info">
         <SubHeading title="Start your new life" />
-        <h1 className="app__header-h1">Neat Fit Coulple</h1>
+        <h1 className="app__header-h1">Neat Fit Couple</h1>
         <p className="p__opensans" style={{ margin: "2rem 0" }}>
           Conoce a Neat Fit Couple, tu dúo dinámico en nutrición y
           entrenamiento. Comprometidos con un estilo de vida saludable,
